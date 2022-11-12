@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(/Agency-image/andrew-kliatskyi-qat59GWzvLo-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    color: white;
+}
+   /* Navber design   */
+.logo{
+    color:white;
+    font-size: 12px;
+}
+span{
+    color: crimson;
+    font-size: 40px;
+}
+.logo{
+    margin-left: 10px;
+}
+.navber-design{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+.navber{
+    margin-left: 340px;
+    
+}
+.navber a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 15px;
+    position: relative;
+}
+.navber a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff3c;
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    transition: 0.5s ease;
+}
+.navber a:hover::after{
+    width: 100%;
+}
+
+.clip-path{
+    margin-top: 100px;
+        width: 100%;
+        height: 80vh;
+        background-color: rgba(0, 0, 0, 0.953);
+        clip-path: polygon(0% 0%, 100% -90%, 100% 90%, 0% 100%);
+        z-index: 3;
+}
+.clip-path-text h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.9rem;
+    color: gold;
+    letter-spacing: 3px;
+}
+.clip-path-text a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 500px;
+    background-color:#0a76f2;
+    padding: 5px 12px;
+    transition: transform 2s ease;
+}
+
+.clip-path-text a:hover{
+transform: scale(1.1);
+}
+.image-ceo{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.image-ceo img{
+border-radius: 50%;
+margin-top: 40px;
+}
+.image-ceo h1{
+    padding: 10px;
+}
+.image-ceo p{
+    font-size: 12px;
+    color: gold;
+}
+.image-ceo a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color:#0a76f2;
+    padding: 5px 12px;
+    transition: transform 2s ease;
+}
+.image-ceo a:hover{
+transform: scale(1.1);
+}
+
+.image-1{
+    width: 250px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: inset  3px 3px 15px -3px -3px 15px rgb(255, 255, 255) inset rgba(255, 216, 216, 0.168);
+}
+.image-1 img{
+    overflow: hidden;
+    transition:transform 2s ease ;
+    border-radius: 10px;
+}
+.image-1 img:hover{
+    transform:scale(1.1);
+}
+.image-1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.image-1 p{
+    color: gold;
+    font-size: 14px;
+}
+.image-1 a{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 0px;
+        background-color:#0a76f2;
+        padding: 5px 12px;
+        transition: transform 2s ease;
+    }
+    .image-1 a:hover{
+    transform: scale(1.1);
+    }
+    .agency{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+.container-bz{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.container-bz .image-1.seo p{
+    font-size: 12px;
+}
+
+
+
+/* footer design  */
+.fottar{
+    margin-top: 50px;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.fast-text-fottar1{
+    position: absolute;
+    top: 60px;
+    left: 900px;
+}
+.fast-text-fottar1 h4{
+    padding-bottom: 20px;
+}
+.fast-text-fottar1 p{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.fast-text-fottar2{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+.fast-text-fottar2 h4{
+    padding-bottom: 20px;
+}
+.fast-text-fottar2 p{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+
+.fast-text-fottar3{
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+.fast-text-fottar3 h4{
+    padding-bottom: 20px;
+}
+.fast-text-fottar3 p{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+.fast-text-fottar4{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+.fast-text-fottar4 h4{
+    padding-bottom: 20px;
+}
+.fast-text-fottar4 p{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.fast-text-fottar5{
+    position: absolute;
+    top: 70px;
+    left:40px;
+}
+.fast-text-fottar5 h4{
+    padding-bottom: 20px;
+}
+.fast-text-fottar5 p{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.icon-for-fottar{
+    position: absolute;
+    top: 400px;
+    left:450px;
+}
+.icon-for-fottar img{
+    width: 30px;
+}
+.icon-for-text h1{
+   padding-right: 120px;
+}
+
+.icon-for-text{
+position: absolute;
+top: 430px;
+left:350px;
+}
+.icon-for-text h1{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.icon-for-text p{
+    font-size: 12px;
+    color: gold;
+    margin-left: 20px;
+}
+.copyright{
+    position: absolute;
+    top: 560px;
+}
+.copyright h3{
+  padding-left: 270px;
+  font-size: 14px;
+}
